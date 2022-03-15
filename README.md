@@ -1,4 +1,4 @@
-# tinyWillhabenScraper
+# Tiny Willhaben-Webscraper
 This little fella is the fastest [willhaben](https://www.willhaben.at/iad) scraper out there 🔥.
 
 I've optimized this project for reading data from **real estate entries**, but you can adapt it to your liking!
