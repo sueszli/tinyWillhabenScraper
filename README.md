@@ -14,6 +14,8 @@ I could bypass this obstruction by manipulating the initial URL that im fetching
 
 Then I can read all the data I require through just a single request.
 
+<br>
+
 **An Example:**
 * Initial URL: https://www.willhaben.at/iad/kaufen-und-verkaufen/marktplatz/uhren-schmuck-2409
 * Manipulated URL: https://www.willhaben.at/iad/kaufen-und-verkaufen/marktplatz/uhren-schmuck-2409?page=1&rows=5
