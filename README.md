@@ -19,8 +19,8 @@ Then I can read all the data I require through just a single request.
 <br>
 
 **An Example:**
-* Initial URL: https://www.willhaben.at/iad/kaufen-und-verkaufen/marktplatz/uhren-schmuck-2409
-* Manipulated URL: https://www.willhaben.at/iad/kaufen-und-verkaufen/marktplatz/uhren-schmuck-2409?page=1&rows=5
+* Initial URL: https://www.willhaben.at/iad/immobilien/eigentumswohnung/eigentumswohnung-angebote
+* Manipulated URL: https://www.willhaben.at/iad/immobilien/eigentumswohnung/eigentumswohnung-angebote?page=1&rows=5
 <br><br>
 
 ## How to use
