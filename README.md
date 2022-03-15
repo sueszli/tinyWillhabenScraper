@@ -21,3 +21,8 @@ Then I can read all the data I require through just a single request.
 **An Example:**
 * Initial URL: https://www.willhaben.at/iad/kaufen-und-verkaufen/marktplatz/uhren-schmuck-2409
 * Manipulated URL: https://www.willhaben.at/iad/kaufen-und-verkaufen/marktplatz/uhren-schmuck-2409?page=1&rows=5
+<br><br>
+
+## How to use
+1. Enter your chosen URL in `src/main/java/Willhaben.java` and run the script.
+2. Wait until script kills itself and check out the results as `.csv`-files in `src/main/resources`. 

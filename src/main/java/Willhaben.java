@@ -20,14 +20,12 @@ public class Willhaben {
     private static final String LINKS_FILENAME = "willhabenLinks" + DateHandler.getCurrentDate();
     private static final String PRODUCTS_FILENAME = "willhabenProducts" + DateHandler.getCurrentDate();
 
+    // enter your chosen URL here
     private static final String ROOT_ADDRESS =
-            "https://www.willhaben.at/iad/immobilien/eigentumswohnung/eigentumswohnung-angebote?" +
-                    "areaId=117223&areaId=117224&areaId=117225&areaId=117226&areaId=117227&areaId=117228&areaId=117229&areaId=117230&areaId=117231&areaId=117234&areaId=117235&areaId=117236&areaId=117237&areaId=117238&areaId=117239" +
-                    "&sort=1" +
-                    "&page=1" +
-                    "&rows=5" + // -> only 5 products are rendered on first request
-                    "&PRICE_FROM=300000&PRICE_TO=400000";
+            "https://www.willhaben.at/iad/immobilien/eigentumswohnung/eigentumswohnung-angebote" +
+            "?rows=5"; // -> only 5 products are rendered on first request
 
+    // configure optimal timeout between each request
     private static final int PAUSE_LINKS = 500; //in ms
     private static final int PAUSE_PRODUCTS = 1000; //in ms
 
