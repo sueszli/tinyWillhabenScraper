@@ -12,7 +12,7 @@ This is most likely an attempt to make scraping off of this website more difficu
 <br><br>
 
 ## The solution
-I could bypass this obstruction by manipulating the initial URL that im fetching from to limit the fetched results to only 5 items by adding the following query to the URL: `?page=1&rows=5`.
+I could bypass this obstruction by using a query parameter that limits the numer of displayed entities to just 5: `?page=1&rows=5`.
 
 Then I can read all the data I require through just a single request.
 
